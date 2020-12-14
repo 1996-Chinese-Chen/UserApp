@@ -1,0 +1,147 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" : {
+				"navigationBarTitleText":"首页"
+			}
+		}
+	    ,{
+            "path" : "pages/Ask/Ask",
+			"style" : {
+				"navigationBarTitleText":"问诊类别"
+			}
+        }
+        ,{
+            "path" : "pages/AskList/AskList",
+			"style" : {
+				"navigationBarTitleText":"问诊列表"
+			}
+        }
+        ,{
+            "path" : "pages/UserInfo/UserInfo",
+			"style" : {
+				"navigationBarTitleText":"个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/AskList/chat/chat",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/medicalImage/medicalImage",
+            "style" : {
+            	"navigationBarTitleText":"科室选择"
+            }
+        }
+        ,{
+            "path" : "pages/index/medicalImage/medicalImageDetail/medicalImageDetail",
+           "style" : {
+           	"navigationBarTitleText":"影像浏览"
+           }
+        },
+		{
+		    "path" : "pages/index/report/report",
+		    "style" : {
+		    	"navigationBarTitleText":"科室选择"
+		    }
+		},
+		{
+		    "path" : "pages/index/report/reportImage/reportImage",
+		   "style" : {
+		   	"navigationBarTitleText":"报告浏览"
+		   }
+		}
+        ,{
+            "path" : "pages/index/bedApply/bedApply",
+           "style" : {
+           	"navigationBarTitleText":"床位预约"
+           }
+        }
+        ,{
+            "path" : "pages/index/onlineBuying/onlineBuying",
+            "style" : {
+            	"navigationBarTitleText":"在线购药"
+            }
+        }
+        ,{
+            "path" : "pages/index/expertinterrogation/expertinterrogation",
+          "style" : {
+          	"navigationBarTitleText":"预约挂号"
+          }
+        }
+        ,{
+            "path" : "pages/index/orderDoc/orderDoc",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/UserInfo/patientList/patientList",
+            "style" : {
+            	"navigationBarTitleText":"就诊人列表"
+            }
+        }
+        ,{
+            "path" : "pages/UserInfo/AddPatient/AddPatient",
+           "style" : {
+           	"navigationBarTitleText":"新增就诊人"
+           }
+        }
+        ,{
+            "path" : "pages/index/DocInfo/DocInfo",
+           "style" : {
+           	"navigationBarTitleText":"医生信息"
+           }
+        }
+        ,{
+            "path" : "pages/index/medicalImage/medicalPatient/medicalPatient",
+            "style" : {
+				 	"navigationBarTitleText":"就诊人选择"
+			}
+        }
+        ,{
+            "path" : "pages/index/report/reportPatient/reportPatient",
+            "style" : {
+				"navigationBarTitleText":"就诊人选择"
+			}
+        }
+        ,{
+            "path" : "pages/UserInfo/Visitingrecord/Visitingrecord",
+            "style" : {
+				"navigationBarTitleText":"就诊记录"
+			}
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+			"iconPath": "static/img/tabbar/home.png",
+			"selectedIconPath": "static/img/tabbar/homeactive.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/Ask/Ask",
+			"iconPath": "static/img/tabbar/guanzhu.png",
+			"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+	        "text": "问诊类别"
+	    }, {
+	        "pagePath": "pages/AskList/AskList",
+			"iconPath": "static/img/tabbar/news.png",
+			"selectedIconPath": "static/img/tabbar/newsactive.png",
+	        "text": "问诊列表"
+	    },
+		{
+	        "pagePath": "pages/UserInfo/UserInfo",
+			"iconPath": "static/img/tabbar/me.png",
+			"selectedIconPath": "static/img/tabbar/meactive.png",
+	        "text": "个人信息"
+	    }]
+	},
+	"globalStyle": {
+	   "navigationBarTextStyle":"black",
+	   "navigationBarTitleText":"掌上云医",
+	   "navigationBarBackgroundColor":"#ffffff"
+	}
+}
